@@ -1,0 +1,151 @@
+/* Reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-color:rgb(253, 203, 141);
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom :10px;
+}
+
+.logo{
+    padding: 5px;
+    width: 75px;
+    height: 55px;
+   
+
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+  
+    
+    
+}
+ 
+nav ul li a {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content:end;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+
+body {
+   
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Estilos para la galería */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagen {
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+    width: 350px; 
+    height: 250px; 
+}
+
+.imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+.contenedor-padre{ 
+    width:100%;
+   
+    display: flex;
+    background-color: rgb(253, 203, 141);
+    padding: 50px;
+    margin-top: 50px;
+
+}
+
+.contenedor{
+
+    display: flex;
+    align-items: center; 
+    margin-left: 200px;
+    width: 50%;
+
+}
+
+.contenedor1 {
+display: flex;
+align-items: center; 
+justify-content: end; 
+margin-right: 300px;
+width: 50%;
+
+
+}
+
+
+
+.fotografia img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    
+  
+}
+
+
+h1 {
+    font-size: 30px;
+    justify-content: start;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px; 
+    justify-content: start;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 5px;
+
+   
+}
+
+
+
+/* Escala la imagen al 110% en el hover */
+
+.imagen:hover img {
+    transform: scale(1.1); 
+}
+
+
